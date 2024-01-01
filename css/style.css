@@ -1527,5 +1527,24 @@ input[type="text"] {
   color: rgba(0, 0, 0, 0.3);
   font-weight: 400;
 }
+.video1 {
+  margin: 2rem;
+  margin-top: 5rem;
+  display: flex;
+  border-radius: 1rem;
+  flex-wrap: wrap;
+}
 
+/* @media screen and (max-width: 920px) {
+  .video1 {
+    width: 80%;
+  }
+} */
+
+@media screen and (max-width: 500px) {
+  .video1 {
+    margin-top: 7rem;
+    width: 80%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
